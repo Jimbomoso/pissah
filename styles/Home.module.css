@@ -28,7 +28,7 @@
 
 .footer a {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   flex-grow: 1;
 }
@@ -58,6 +58,7 @@
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+  color: black;
 }
 
 .code {

@@ -1,18 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1614069565320-172174347232?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=671&q=80');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Tourney", cursive;
+  color: red;
 }
 
 a {
-  color: inherit;
+  color: red;
   text-decoration: none;
+  
 }
 
-* {
-  box-sizing: border-box;
+h1 {
+  padding: 50px 0px 0px 0px;
 }
 
 ul {
@@ -20,5 +33,20 @@ ul {
 }
 
 li {
-  color: blue;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 2px;
 }
+
+footer {
+  background: rgb(241, 240, 240);
+  color: red;
+}
+
+iframe {
+  overflow:hidden;
+  opacity: .6;
+  border-radius: 8px;
+  padding: 1%;
+}
+
