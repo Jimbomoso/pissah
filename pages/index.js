@@ -14,7 +14,7 @@ export default function Home() {
         
         <main className={styles.main}>
         <h1 className={styles.title}>Pissah</h1>
-          <h2 className={styles.description}>This week's punishment:</h2>
+          <h2 className={styles.description}>This weeks punishment:</h2>
           <iframe
             frameBorder="0"
             src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQMODec2Pd5vr7lKJZsUHSHqMj6upRG3v5jCZHJUaCxten2YQyalh-Gef_qB1bgRL2dNALMVOplMeB5/pubhtml?gid=1392528245&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;"
