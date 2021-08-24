@@ -42,7 +42,7 @@ export default function hallOfFame() {
             </li>
             <li className="text-black">2019 </li>
             <li className="text-gray-300 font-bold">
-              Joe Del La Hoya - No Fun If Mahomes Can't Have None
+              Joe Del La Hoya - No Fun If Mahomes Cant Have None
             </li>
             <li className="text-black">2020 </li>
             <li className="text-gray-300 font-bold">
