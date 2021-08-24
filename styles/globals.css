@@ -1,3 +1,7 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 @import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100;700&display=swap');
 
 * {
@@ -8,9 +12,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-image: url('https://images.unsplash.com/photo-1614069565320-172174347232?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=671&q=80');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -21,11 +22,13 @@ body {
 a {
   color: red;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
   
 }
 
 h1 {
-  padding: 50px 0px 0px 0px;
+  padding: 25px;
 }
 
 ul {
@@ -33,9 +36,10 @@ ul {
 }
 
 li {
-  color: white;
   font-family: 'Courier New', Courier, monospace;
-  padding: 2px;
+  /* padding: 2px; */
+  margin: 2px;
+  font-size: 16px;
 }
 
 footer {
@@ -47,6 +51,19 @@ iframe {
   overflow:hidden;
   opacity: .6;
   border-radius: 8px;
-  padding: 1%;
 }
 
+.hero-image {
+  width: 100%;
+  padding: 1%;
+  max-width: 1500px;
+  background-size: cover;
+  background-image: url(../public/toilet.jpg);
+  background-position-y: 50%;
+}
+
+@media (min-width: 600px) {
+  .hero-image {
+    padding: 25%;
+  };
+}
