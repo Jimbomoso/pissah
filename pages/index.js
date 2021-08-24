@@ -37,7 +37,7 @@ export default function Home() {
               <li>3rd - Drew </li>
               <li>4th - Brandon </li>
               <li>5th - Joe </li>
-              <li>6th - Julian's Boo </li>
+              <li>6th - Julians Boo </li>
               <li>7th - Ross </li>
               <li>8th - Kyle </li>
               <li>9th - J.C. </li>
