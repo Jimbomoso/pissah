@@ -79,20 +79,20 @@ export default function Footer() {
             <h5 className="uppercase mb-6 font-bold">Records</h5>
             <ul className="mb-4">
               <li className="mt-2">
-                <a
+                <Link
                   href="/hallOfFame"
                   className="hover:underline text-gray-600 hover:text-orange-500"
                 >
                   Hall of Fame
-                </a>
+                </Link>
               </li>
               <li className="mt-2">
-                <a
+                <Link
                   href="/hallOfShame"
                   className="hover:underline text-gray-600 hover:text-orange-500"
                 >
                   Hall of Shame
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
