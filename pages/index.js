@@ -11,7 +11,7 @@ export default function Home() {
           <meta name="description" content="Pissah" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        
+        <h1> 2021 Draft is 9/6 @ 6pm central </h1>
         <main className={styles.main}>
         <h1 className={styles.title}>Pissah</h1>
           <h2 className={styles.description}>This weeks punishment:</h2>
