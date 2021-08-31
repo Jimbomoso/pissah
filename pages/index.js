@@ -29,7 +29,7 @@ export default function Home() {
               
             </div>
             <h1 className="font-bold uppercase text-gray-800 mb-2 text-center">
-              2021 Draft is 9/6 @ 6pm central
+              2021 Draft is 9/5 @ 6pm central
             </h1>
             <ul className="font-bold text-center m-5">
               <li>1st - Justin </li>
