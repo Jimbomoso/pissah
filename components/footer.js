@@ -20,6 +20,14 @@ export default function Footer() {
                   Submission Form
                 </a>
               </li>
+              <li className="mt-2">
+                <a
+                  href="https://docs.google.com/spreadsheets/d/1NAXTWVY7QHu65qoDEGeTK7ixVJH3TggjYkKj5MdtdnU/edit?usp=sharing"
+                  className="hover:underline text-gray-600 hover:text-orange-500"
+                >
+                  Punishments
+                </a>
+              </li>
             </ul>
           </div>
           <div className="w-full md:w-1/3 text-center">
