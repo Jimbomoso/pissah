@@ -21,18 +21,18 @@ export default function Home() {
               <h1 className="font-bold text-6xl text-center">Pissah</h1>
 
               <h2 className="font-bold text-center text-xl text-gray-800 mb-5">This weeks punishment:</h2>
-              <iframe
+              {/* <iframe
                 width="100%"
                 frameBorder="0"
                 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQMODec2Pd5vr7lKJZsUHSHqMj6upRG3v5jCZHJUaCxten2YQyalh-Gef_qB1bgRL2dNALMVOplMeB5/pubhtml?gid=1392528245&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;"
-              ></iframe>
+              ></iframe> */}
               
             </div>
             <h1 className="font-bold uppercase text-gray-800 mb-2 text-center">
-              2021 Draft is 9/5 @ 6pm central
+              2022 Draft is TBD 
             </h1>
             <ul className="font-bold text-center m-5">
-              <li>1st - Justin </li>
+              {/* <li>1st - Justin </li>
               <li>2nd - Jason </li>
               <li>3rd - Drew </li>
               <li>4th - Brandon </li>
@@ -41,7 +41,7 @@ export default function Home() {
               <li>7th - Ross </li>
               <li>8th - Kyle </li>
               <li>9th - J.C. </li>
-              <li>10th - Julian </li>
+              <li>10th - Julian </li> */}
             </ul>
           </main>
         </div>
