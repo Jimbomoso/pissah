@@ -16,9 +16,9 @@ export default function Footer() {
                 {/* <a
                   href="https://forms.gle/Xvj8PnZ9xzcayCf76"
                   className="hover:underline text-gray-600 hover:text-orange-500"
-                > */}
+                >
                   Submission Form
-                </a>
+                </a> */}
               </li>
               <li className="mt-2">
                 {/* <a
