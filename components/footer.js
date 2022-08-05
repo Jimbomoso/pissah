@@ -13,20 +13,20 @@ export default function Footer() {
             <h5 className="uppercase mb-6 font-bold">Punishments</h5>
             <ul className="mb-4">
               <li className="mt-2">
-                <a
+                {/* <a
                   href="https://forms.gle/Xvj8PnZ9xzcayCf76"
                   className="hover:underline text-gray-600 hover:text-orange-500"
-                >
+                > */}
                   Submission Form
                 </a>
               </li>
               <li className="mt-2">
-                <a
+                {/* <a
                   href="https://docs.google.com/spreadsheets/d/1NAXTWVY7QHu65qoDEGeTK7ixVJH3TggjYkKj5MdtdnU/edit?usp=sharing"
                   className="hover:underline text-gray-600 hover:text-orange-500"
                 >
                   Punishments
-                </a>
+                </a> */}
               </li>
             </ul>
           </div>
