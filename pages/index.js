@@ -29,19 +29,19 @@ export default function Home() {
               
             </div>
             <h1 className="font-bold uppercase text-gray-800 mb-2 text-center">
-              2022 Draft is TBD 
+              2022 Draft is August 29th @ 645pm est
             </h1>
             <ul className="font-bold text-center m-5">
-              {/* <li>1st - Justin </li>
-              <li>2nd - Jason </li>
-              <li>3rd - Drew </li>
-              <li>4th - Brandon </li>
-              <li>5th - Joe </li>
-              <li>6th - Julians Boo </li>
-              <li>7th - Ross </li>
+              <li>1th - Julians Boo </li>
+              <li>2nd - Muppet </li>
+              <li>3rd - Justin </li>
+              <li>4th - Julian </li>
+              <li>5th - Elderly Brandon </li>
+              <li>6th - Jason </li>                                                                   
+              <li>7th - J.C. </li>
               <li>8th - Kyle </li>
-              <li>9th - J.C. </li>
-              <li>10th - Julian </li> */}
+              <li>9th - Ol' man Ross </li>
+              <li>10th - Osvaldo </li>
             </ul>
           </main>
         </div>
