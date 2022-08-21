@@ -40,7 +40,7 @@ export default function Home() {
               <li>6th - Jason </li>                                                                   
               <li>7th - J.C. </li>
               <li>8th - Kyle </li>
-              <li>9th - Ol' man Ross </li>
+              <li>9th - Ol man Ross </li>
               <li>10th - Osvaldo </li>
             </ul>
           </main>
