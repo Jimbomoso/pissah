@@ -26,6 +26,7 @@ export default function Home() {
                 frameBorder="0"
                 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQMODec2Pd5vr7lKJZsUHSHqMj6upRG3v5jCZHJUaCxten2YQyalh-Gef_qB1bgRL2dNALMVOplMeB5/pubhtml?gid=1392528245&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;"
               ></iframe> */}
+              <iframe width="100%" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRV43wno5guEm8Jrbn8WcDe4Plhs4FhlDyh8demt05WD6pRlJiwMXNOaUch731-0wuB-gcfiRqx4uGD/pubhtml?widget=true&amp;headers=false"></iframe>
               
             </div>
             <h1 className="font-bold uppercase text-gray-800 mb-2 text-center">
