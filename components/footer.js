@@ -33,6 +33,14 @@ export default function Footer() {
           <div className="w-full md:w-1/3 text-center">
             <h5 className="uppercase mb-6 font-bold">Keepers</h5>
             <ul className="mb-4">
+            <li className="mt-2">
+                <a
+                  href="https://docs.google.com/spreadsheets/d/1HqBUGAbqIflPSKtJ93eNfqBkUkCzmMyVnv0PcwvXNFw/edit?usp=sharing"
+                  className="hover:underline text-gray-600 hover:text-orange-500"
+                >
+                  2022
+                </a>
+              </li>
               <li className="mt-2">
                 <a
                   href="https://docs.google.com/spreadsheets/d/1HqBUGAbqIflPSKtJ93eNfqBkUkCzmMyVnv0PcwvXNFw/edit?usp=sharing"
