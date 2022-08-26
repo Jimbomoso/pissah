@@ -32,16 +32,16 @@ export default function Home() {
               2022 Draft is August 27th @ 645pm est
             </h1>
             <ul className="font-bold text-center m-5">
-              <li> - Julians Boo </li>
-              <li> - Muppet </li>
-              <li> - Justin </li>
-              <li> - Julian </li>
-              <li> - Elderly Brandon </li>
-              <li> - Jason </li>                                                                   
-              <li> - J.C. </li>
-              <li> - Kyle </li>
-              <li> - Ol man Ross </li>
-              <li> - Osvaldo </li>
+              <li>1st - Julians Boo </li>
+              <li>2nd - Muppet </li>
+              <li>3rd - Justin </li>
+              <li>4th - Julian </li>
+              <li>5th - Elderly Brandon </li>
+              <li>6th - Jason </li>                                                                   
+              <li>7th - J.C. </li>
+              <li>8th - Kyle </li>
+              <li>9th - Ol man Ross </li>
+              <li>10th - Osvaldo </li>
             </ul>
           </main>
         </div>
