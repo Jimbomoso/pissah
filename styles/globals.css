@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  counter-reset: list;
+}
+
 html,
 body {
   padding: 0;
@@ -36,10 +40,15 @@ ul {
 }
 
 li {
+  counter-increment: list;
   font-family: 'Courier New', Courier, monospace;
   /* padding: 2px; */
   margin: 2px;
   font-size: 16px;
+}
+
+li::before {
+  content: counter(list);
 }
 
 footer {
