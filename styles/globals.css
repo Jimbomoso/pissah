@@ -53,6 +53,10 @@ iframe {
   border-radius: 8px;
 }
 
+.sheet {
+  overflow: hidden;
+}
+
 .hero-image {
   width: 100%;
   padding: 1%;

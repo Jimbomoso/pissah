@@ -17,18 +17,13 @@ export default function Home() {
         </Head>
         <div className={styles.container}>
           <main className={styles.main}>
-            <div className="hero-image">
+            <div className="hero-image" class="w-16 md:w-32 lg:w-48">
               <h1 className="font-bold text-6xl text-center">Pissah</h1>
 
               <h2 className="font-bold text-center text-xl text-gray-800 mb-5">This weeks punishment:</h2>
-              {/* <iframe
-                width="100%"
-                frameBorder="0"
-                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQMODec2Pd5vr7lKJZsUHSHqMj6upRG3v5jCZHJUaCxten2YQyalh-Gef_qB1bgRL2dNALMVOplMeB5/pubhtml?gid=1392528245&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;"
-              ></iframe> */}
-              <iframe width="100%" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRV43wno5guEm8Jrbn8WcDe4Plhs4FhlDyh8demt05WD6pRlJiwMXNOaUch731-0wuB-gcfiRqx4uGD/pubhtml?gid=1916982839&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;"></iframe>
+              <iframe className="sheet" width="100%" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRV43wno5guEm8Jrbn8WcDe4Plhs4FhlDyh8demt05WD6pRlJiwMXNOaUch731-0wuB-gcfiRqx4uGD/pubhtml?gid=1916982839&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;"></iframe>
             </div>
-            <h1 className="font-bold uppercase text-gray-800 mb-2 text-center">
+            {/* <h1 className="font-bold uppercase text-gray-800 mb-2 text-center">
               2022 Draft is August 27th @ 645pm est
             </h1>
             <ul className="font-bold text-center m-5">
@@ -42,7 +37,7 @@ export default function Home() {
               <li>8th - Kyle </li>
               <li>9th - Ol man Ross </li>
               <li>10th - Osvaldo </li>
-            </ul>
+            </ul> */}
           </main>
         </div>
       </Layout>
