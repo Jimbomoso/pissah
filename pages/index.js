@@ -2,7 +2,12 @@ import Head from "next/head";
 import Layout from "../components/layout";
 import styles from "../styles/Home.module.css";
 
+
+import Image from 'next/image'
+import myPic from '../public/toilet.jpg'
+
 export default function Home() {
+  
   return (
     <>
       <Layout>
@@ -17,27 +22,20 @@ export default function Home() {
         </Head>
         <div className={styles.container}>
           <main className={styles.main}>
-            <div className="hero-image" class="w-16 md:w-32 lg:w-48">
-              <h1 className="font-bold text-6xl text-center">Pissah</h1>
-
-              <h2 className="font-bold text-center text-xl text-gray-800 mb-5">This weeks punishment:</h2>
-              <iframe className="sheet" width="100%" frameBorder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRV43wno5guEm8Jrbn8WcDe4Plhs4FhlDyh8demt05WD6pRlJiwMXNOaUch731-0wuB-gcfiRqx4uGD/pubhtml?gid=1916982839&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;"></iframe>
+            <div className={styles.flex_container}>
+                <h1 className="font-bold text-6xl text-center">Pissah</h1>
+                <div className={styles.image_container}>
+                  <Image 
+                    src={myPic}
+                    layout="fill"
+                    className={styles.image}
+                  />
+                </div>
+                <div className={styles.frame_container}>
+                  <h2 className="font-bold text-center text-xl text-gray-800 mb-5">This weeks punishment:</h2>
+                  <iframe className={styles.sheet} frameBorder="" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRV43wno5guEm8Jrbn8WcDe4Plhs4FhlDyh8demt05WD6pRlJiwMXNOaUch731-0wuB-gcfiRqx4uGD/pubhtml?gid=1916982839&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;" scrolling="no" overflow="hidden"></iframe>
+                </div>
             </div>
-            {/* <h1 className="font-bold uppercase text-gray-800 mb-2 text-center">
-              2022 Draft is August 27th @ 645pm est
-            </h1>
-            <ul className="font-bold text-center m-5">
-              <li>1st - Julians Boo </li>
-              <li>2nd - Muppet </li>
-              <li>3rd - Justin </li>
-              <li>4th - Julian </li>
-              <li>5th - Elderly Brandon </li>
-              <li>6th - Jason </li>                                                                   
-              <li>7th - J.C. </li>
-              <li>8th - Kyle </li>
-              <li>9th - Ol man Ross </li>
-              <li>10th - Osvaldo </li>
-            </ul> */}
           </main>
         </div>
       </Layout>

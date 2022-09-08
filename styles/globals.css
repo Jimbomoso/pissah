@@ -11,12 +11,21 @@
 html,
 body {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   font-family: "Tourney", cursive;
   color: red;
+  max-width: 1500px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 2fr));
+  /* This is better for small screens, once min() is better supported */
+  /* grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); */
+  gap: 1rem;
 }
 
 a {
@@ -40,34 +49,4 @@ li {
   /* padding: 2px; */
   margin: 2px;
   font-size: 16px;
-}
-
-footer {
-  background: rgb(241, 240, 240);
-  color: red;
-}
-
-iframe {
-  overflow:hidden;
-  opacity: .6;
-  border-radius: 8px;
-}
-
-.sheet {
-  overflow: hidden;
-}
-
-.hero-image {
-  width: 100%;
-  padding: 1%;
-  max-width: 1500px;
-  background-size: cover;
-  background-image: url(../public/toilet.jpg);
-  background-position-y: 50%;
-}
-
-@media (min-width: 600px) {
-  .hero-image {
-    padding: 25%;
-  };
 }
