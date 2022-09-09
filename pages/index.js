@@ -29,6 +29,7 @@ export default function Home({sheetdata}) {
                     src={myPic}
                     layout="fill"
                     className={styles.image}
+                    alt="Toilet bowl logo"
                   />
                 </div>
                 <div className={styles.frame_container}>
@@ -45,7 +46,7 @@ export default function Home({sheetdata}) {
 }
 
 export async function getServerSideProps() {
-  const req = await fetch('https://pissah.vercel.app/api/sheet');
+  const req = await fetch('http://localhost:3000/api/sheet');
   const res = await req.json();
 
   return {

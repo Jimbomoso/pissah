@@ -1,5 +1,5 @@
 import { google } from "googleapis";
-import keys from "../../key";
+import keys from "../../key.json";
 
 export default function handler(req, res) {
     try {
